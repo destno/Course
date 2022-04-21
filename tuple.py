@@ -14,8 +14,8 @@ print(tuple1)
 
 #3 Конвертируйте кортеж в словарь.
 tuple1 = (('a', 'b'), ('1', '2'))
-dic1 = dict(tuple1)
-print(dic1)
+print(dict(tuple1))
+print(dict(map(reversed, tuple1)))
 
 #4 Напишите скрипт, подсчитывающий количество элементов типа кортеж в списке.
 list1 = [('a', 'b'), ('1', '2'), 1,2]
