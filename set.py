@@ -22,8 +22,8 @@ set_del.discard("test")
 print(set_del)
 
 #3 Удалите повторяющиеся элементы из списка
-set_duplicate = {"test", "duplicate", "duplicate"}
-print(set_duplicate) #Множесто не содержит дублей, оно хранит только уникальные значения
+list_set = ["test", "duplicate", "duplicate"]
+print(list(set(list_set)))
 
 #4 Напишите скрипт, определяющий длину множества двумя различными способами.
 set_length = {"test", "length", "3"}
