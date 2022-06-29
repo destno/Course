@@ -37,7 +37,7 @@ class triangle(shapes):
         return f"Длина сторон: {self.length_sides}, Количество сторон: {self.count_sides}, " \
                 f"Периметр равен: {self.perimeter}, Площадь ровна: {self.area}"
                 
-class square(shapes):
+class quadrangle(shapes):
     
     def __init__(self, length_sides):
         super().__init__(length_sides)
